@@ -1,0 +1,20 @@
+{
+    "name": "listinghosting/validator",
+    "description": "Handles validation for WHSuite",
+    "require": {
+        "illuminate/validation": "4.1.*@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "listinghosting",
+            "email": "git@listinghosting.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Whsuite\\Validator" : "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
